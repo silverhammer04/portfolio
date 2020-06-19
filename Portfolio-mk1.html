@@ -2,37 +2,29 @@
 <html>
     <head>
         <title>Portfolion MK1</title>
-        <style>
-            nav ul{list-style-type:none;}
-            nav li{display: inline;}
-            #top{text-align: center;}
-            body{background-color: lightskyblue;
-            margin: 0px 15px 20px 15px;}
-            #usmc{background-color: olivedrab;}
-            tr{height: 160;}
-            .edu{float:right}
-        </style>
+        <link href="portfolion-mk1.css" rel="stylesheet" type="text/css">
+        
     </head>
     <body>
-        <nav>
-            <ul>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#edu">Education</a></li>
-                <li><a href="#car">Career</a></li>
-                <li><a href="#bio">Bio</a></li>
-                <li><a href="#hob">Hobbies</a></li>
-                <li><a href="#interest">Interests</a></li>
-                <li><a href="#fact">Factoids</a></li>
-            </ul>
-        </nav>  
         <header id="top">     
             <h1><b>Maxwell Seifert</b></h1>
             <p>Coding Student at Helio</p>
+            <nav>
+                <ul>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#edu">Education</a></li>
+                    <li><a href="#car">Career</a></li>
+                    <li><a href="#bio">Bio</a></li>
+                    <li><a href="#hob">Hobbies</a></li>
+                    <li><a href="#interest">Interests</a></li>
+                    <li><a href="#fact">Factoids</a></li>
+                </ul>
+            </nav>  
         </header> 
 
         <h2 id="work">Work History</h2>
         <p>Elwood Staffing, Temp work - Manufacturing and warehouse order picking. </p>
-        <img src="https://www.peakaudio.ns.ca/wp-content/uploads/2019/04/Luxul_Wired_Wireless_Networking.jpg" width="300"/>
+        <img src="https://www.peakaudio.ns.ca/wp-content/uploads/2019/04/Luxul_Wired_Wireless_Networking.jpg" width="200"/>
         <p>2016-2019: Luxul, Inventory management - Picking a packing orders, and making adjustments using inventory management systems.</p>
 
         <p>2015-2016: Elwood Staffing - line picking, manufacturing, until they sent me to Luxul who hired me full time.</p>
@@ -48,8 +40,8 @@
                 </tr>
             </table>
         </div>
-            <figure class="edu">
-                <img width="250" src="https://wallup.net/wp-content/uploads/2017/11/23/515684-books-glasses-scrolls-ribbon.jpg" />
+            <figure id="edu">
+                <img class="photo-right" width="250" src="https://wallup.net/wp-content/uploads/2017/11/23/515684-books-glasses-scrolls-ribbon.jpg" />
             </figure>
         <h2>Education</h2> 
           
@@ -67,11 +59,12 @@
 
         <h2 id="car">Career Aspirations</h2>
         <p>To have a career I enjoy</p>
-
-        <h2 id="bio">A Short and Simple Biography</h2>
-        <p>Graduated from Copper Hills High School in 04.  Enlisted into the United States Marine Corps in 08.  Did 4 years of active duty, and 4 years inactive ready reserve.  I worked with a family friend at Soda Tech.(if you need a small fountain machine I know a guy)  Started working with Elwood Staffing, they sent me to Luxul warehouse.  Luxul is a small local tech company.  Luxul gets sold to Legrand, and they close the warehouse in 2019.  So I go back to Elwood, and between inconsistent work and bad experiences, I decide to get an education.</p>
-        <div id="hob">
-            <h2>Hobbies</h2>
+        <div id="bio">
+            <h2 >A Short and Simple Biography</h2>
+            <p>Graduated from Copper Hills High School in 04.  Enlisted into the United States Marine Corps in 08.  Did 4 years of active duty, and 4 years inactive ready reserve.  I worked with a family friend at Soda Tech.(if you need a small fountain machine I know a guy)  Started working with Elwood Staffing, they sent me to Luxul warehouse.  Luxul is a small local tech company.  Luxul gets sold to Legrand, and they close the warehouse in 2019.  So I go back to Elwood, and between inconsistent work and bad experiences, I decide to get an education.</p>
+        </div>
+        <div > 
+            <h2 id="hob">Hobbies</h2>
                 <ul>
                     <li>Reading, who doesn't read?</li>
                     <li>Working Out, not to get swol, just be less fat.</li>
@@ -88,8 +81,20 @@
 
         <h2 id="fact">Factoids</h2>
             <p>I'm quiet, I'm trying to control how I react to the stupid drivers on the road.  I also wanted some word salad to pad things out a bit more.  I do not want to make more unorded lists for this project.</p>
-            <p>I like music. Have you ever heard of the band Jinjer?  One of the best things about them, the videos of people reacting to Jinjer.<a href="https://www.youtube.com/watch?v=SQNtGoM3FVU">JINJER - Pisces (Live Session) | Napalm Records</a> Watch the original video, then the reactions. </p>
-
+            <p>I like music. Have you ever heard of the band Jinjer?  One of the best things about them, the videos of people reacting to Jinjer.<a class="jinjer" href="https://www.youtube.com/watch?v=SQNtGoM3FVU">JINJER - Pisces (Live Session) | Napalm Records</a> Watch the original video, then the reactions. </p>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#edu">Education</a></li>
+                    <li><a href="#car">Career</a></li>
+                    <li><a href="#bio">Bio</a></li>
+                    <li><a href="#hob">Hobbies</a></li>
+                    <li><a href="#interest">Interests</a></li>
+                    <li><a href="#fact">Factoids</a></li>
+                </ul>
+            </nav>  
+        </footer>
     </body>
-    <footer><a href="#top">Back to top.</a></footer>
+    
 </html>

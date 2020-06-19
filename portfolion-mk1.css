@@ -1,0 +1,58 @@
+body{
+    background-color: slategray;
+margin: 0 auto;
+width:958px;
+}
+
+nav{
+    margin: 0px auto;
+}
+nav ul{
+    list-style-type:none;
+    padding: 0;
+}
+nav li{
+    display: inline;
+    float: left;
+}
+nav a:link, nav a:visited{
+    background-color: darkgreen;
+    color: black;
+    display: block;
+    width:134px;
+    text-align: center;
+    padding:10px 0;
+  }
+  nav a:hover{
+      background-color: rgb(215, 252, 9);
+  }
+header{
+    height: 100px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+    background-color: firebrick;
+}
+
+#top{
+    text-align: center;
+}
+
+#usmc{
+    background-color: olivedrab;
+}
+
+tr{
+    height: 160;
+}
+
+.edu{
+    float:right
+}
+
+.photo-right{
+    float: right;
+}
+
+footer{
+    margin-bottom: 40px;
+}
